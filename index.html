@@ -146,9 +146,9 @@
         <div class="work">
             <img src="images/work-3.png" alt="image of phone on a stand">
             <div class="layer">
-                <h3>Social Media App</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <h3>Assistant Project Manager for YTU</h3>
+                <p>Learn more about this project that connects African and European Youths working on global impact projects</p>
+                    <a href="https://www.linkedin.com/company/youth-team-up/?viewAsMember=true"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
     </div>
 
@@ -260,10 +260,28 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+      <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('highlighted');
+            } else {
+              entry.target.classList.remove('highlighted');
+            }
+          });
+        }, {
+          rootMargin: '0px',
+          threshold: 0.1 // Adjust this value based on when you want the highlight to trigger
+        });
+      
+        // Target elements to observe
+        document.querySelectorAll('.your-target-class').forEach((section) => {
+          observer.observe(section);
+        });
+      });
+      </script>
+      </body>
+      </html>
 </body>
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </html>

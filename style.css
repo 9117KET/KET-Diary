@@ -514,3 +514,8 @@ form button {
         
     }
 }
+
+.highlight {
+    transform: scale(1.05);
+    translate: transform 0.5s;
+}
