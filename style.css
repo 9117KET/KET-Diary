@@ -514,30 +514,3 @@ form button {
         
     }
 }
-
-#msg{
-    color:#61b752;
-    margin-top: -40px;
-    display: block;
-}
-
-#google_translate_element {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 10px;
-    margin-right: 10px;
-  }
-
-  body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-}
-
-.dark-mode nav {
-    background-color: #1a1a1a;
-}
-
-.dark-mode #msg {
-    color: #bada55;
-}
