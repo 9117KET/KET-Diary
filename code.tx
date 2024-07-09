@@ -10,5 +10,88 @@
                 </section>
 
 
+This code contains a section I need to add which is the experience but it introduces a bug in my code.
+
+                <div class="tab-contents" id="certificates">
+                    <ul>
+                        <li><span>August 2023-Introduction to Generative AI</span><br> Introductory online course offered by Google</li>
+                        <li><span>September 2023-Introduction to Large Language Model</span><br>Introductory online course offered by Google</li>
+                        <li><span>March 2023-Introduction to Design Thinking:</span><br>Dunin-Deshpande Queen's Innovation Centre Canada through the Jim Leech Mastercard Foundation Fellowship at Queen's University</li>
+                        <li><span>March 2023-Ignite Entrepreneurship:</span><br>Dunin-Deshpande Queen's Innovation Centre Canada through the Jim Leech Mastercard Foundation Fellowship at Queen's University</li>
+                        <li><span>March 2023-Explore Entrepreneurship:</span><br>Dunin-Deshpande Queen's Innovation Centre Canada through the Jim Leech Mastercard Foundation Fellowship at Queen's University</li>
+                        <li><span>September 2023-Launch Entrepreneurship:</span><br>Dunin-Deshpande Queen's Innovation Centre Canada through the Jim Leech Mastercard Foundation Fellowship at Queen's University</li>
+                        <li><span>Jim Leech Mastercard Foundation Fellowship on Entrepreneurship</span><br>Dunin-Deshpande Queen's Innovation Centre Canada through the Jim Leech Mastercard Foundation Fellowship at Queen's University</li>
+                    </ul>
+                </div>
 
 
+
+
+
+                This is the other abot section of the updated website
+                <!-- About section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="User">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <l1><p>
+                        
+                        I am Kinlo, commonly referred to as Professor. I am a Computer Science Major and Data Science Minor student at Constructor University in Bremen, 
+                        Germany.  I am a tech enthusiast who loves to learn and teach. I teach math and science-related subjects on my YouTube channel.
+                        I am also the founder of a social organization "KET Foundation," which is dedicated to leveraging 
+                        technology to empower youths and ease access to educational resources and opportunities. <br> 
+                        <br>
+                        Other activities I love doing during my free time is playing table tennis, football and chess</p></l1>            
+                    
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Awards')">Awards</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Bachelor Degree (2022-2025)</span><br>Bsc in Computer Sciences Major and Data Science Minor at CUB (class of 2025)</li>
+                            <li><span>ENSTP-Civil Engineering (2021-2022)</span><br>Attended the National Advanced School of Public Works (NASPW) Yaounde-Cameroon (1 and 1/2 years) </li>
+                            <li><span>OpenDreams (2020-2022)</span><br>Graduated from the OpenDreams Summer Academy "batch of #Resilience"  </li>
+                            <li><span>High School (2017-2019)</span><br>Graduated from English High School (EHS) Yaounde in Sciences</li>
+                            <li><span>Secondary School (2010-2015)</span><br>Graduated from Government Bilingual High School (GBHS) Misaje overall best in the entire sub-division</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Summer intern at WaziUp</span><br>SWE intern at WaziUp working along side the software dev team to build a recommendation frame work for IoT courses</li>
+                            <li><span>2023-2024-Teaching Assistant for Calculus and Linear Algebra I & II</span><br>Worked directly with Professor Ivan Ovsyannikov in making sure students understand Calculus and Linear algebra concepts to highest level</li>
+                            <li><span>2023-2024-Student Assistant project Manager for YouthTeam</span><br>YouthTeamUp is an EU sponsored program that connect African and European Youths working on global impact project (GIPs)</li>
+                            <li><span>2023-2024-Community and Communication specialist for Synthesis@Constructor University</span><br>The newly established Entrepreneurship and Innovation Center at constructor University, empowering student-entrepreneurs to become future proof founders</li>
+                            <li><span>2020-2024-Founder of KET Academy</span><br>Founder & Team lead of the Core and Ambassadors of this social initiative, the KET Academy to provide access to quality education and mentorship to secondary and high school students</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Teamwork</span></li>
+                            <li><span>Effective Communication</span></li>
+                            <li><span>Time Management</span></li>
+                            <li><span>Adaptability</span></li>
+                            <li><span>Creative and Analytical Thinking</span></li>
+                            <li><span>Leadership</span></li>
+                            <li><span>Emotional Intelligence</span></li>
+                            <li><span>Agility</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Awards">
+                        <ul>
+                            <li><span>Global Student Top 50 Finalist</span><br>Selected as a top 50 finalist from a pool of 3851 as one of the most inspiring students creating real impact in education and society.</li>
+                            <a href="https://globalteacherprize.org/news/global-student-prize-finalists/2023-finalists-global-student-prize/1012/1012-Kinlo-Ephriam-Tangiri">Learn More <i class="fa-solid fa-up-right-from-square"></i></a>
+                            <li><span>Ambassador Award for Excellent Encouragement</span><br>After serving for two years as International Youth Maths Competition Ambassador for my country Cameroon, I was awarded this certificate ranking 2rd globally</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
