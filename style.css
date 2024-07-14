@@ -413,6 +413,7 @@ nav i {
     width: 100%;
 }
 
+
 form input, form textarea {
     width: 100%;
     border: 0;
@@ -449,6 +450,9 @@ form button {
     #header{
         background-image: url(images/background-mobile.png);
     }
+    .container {
+        padding: 10px 2%;
+    }
 
     .header-text {
         margin-top: 100%;
@@ -472,6 +476,7 @@ form button {
         flex-basis: 100%;
         padding: 0 15px;
         font-size: 14px;
+        
     }
 
     .services-list {
