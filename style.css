@@ -168,6 +168,9 @@ nav i {
 .tab-contents.active-tab {
     display: block;
 }
+.sub-title { 
+    text-align: center;
+}
 
 /* Services Section */
 #services {
@@ -184,6 +187,7 @@ nav i {
     font-weight: 600;
     color: #fff;
     margin-bottom: 40px;
+    
 }
 
 .services-list {
@@ -442,11 +446,16 @@ form button {
     display: none;
 }
 @media only screen and (max-width: 768px) {
-    .header-text h1 {
-        font-size: 40px;
+    #header{
+        background-image: url(images/background-mobile.png);
     }
 
     .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
         font-size: 20px;
     }
 
@@ -461,6 +470,8 @@ form button {
 
     .about-col-1, .about-col-2 {
         flex-basis: 100%;
+        padding: 0 15px;
+        font-size: 14px;
     }
 
     .services-list {
@@ -469,6 +480,11 @@ form button {
 
     .service-item {
         margin: 10px 0;
+    }
+    .about-col-2 {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav ul {
