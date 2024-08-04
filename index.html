@@ -6,42 +6,52 @@
     <title>Kinlo Ephriam Tangiri | KET Diary</title>
     <meta name="description" content="Kinlo Ephriam Tangiri's portfolio showcasing web development projects, skills, and experience. Visit KET Diary for more information. Kinlo Ephriam Tangiri">
 
-
+    <!-- External CSS file -->
     <link rel="stylesheet" href="style.css">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SEBV4MYCSZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SEBV4MYCSZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SEBV4MYCSZ');
+    </script>
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/93fc536c62.js" crossorigin="anonymous"></script>
 
-  gtag('config', 'G-SEBV4MYCSZ');
-</script>
-    <script src="https://kit.fontawesome.com/93fc536c62.js" crossorigin="anonymous"> alt="Kinlo Ephriam Tangiri"</script>
+    
 </head>
 <body>
+    <!-- Header Section -->
     <header id="header">
         <div class="container">
+            <!-- Navigation -->
             <nav>
                 <img src="images/logo.png" class="logo" alt="Kinlo Ephriam Tangiri">
                 <ul class="nav-links">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i id="close-icon" class="fa-solid fa-circle-xmark"></i>
+                    <li><a href="#header" class="nav-item">Home</a></li>
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#services" class="nav-item">Services</a></li>
+                    <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
                 </ul>
                 <i id="menu-icon" class="fa-solid fa-bars"></i>
-                
+                <i id="close-icon" class="fa-solid fa-circle-xmark"></i>
             </nav>
+            <!-- Header Text -->
             <div class="header-text">
                 <p>Tech enthusiast/Student Entrepreneur</p>
                 <h1>Hi, I'm <span>Kinlo</span> ET from Cameroon. <br> A Computer Science student @ Constructor University</h1>
             </div>
         </div>
     </header>
-    <!-- About section -->
+
+    <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
@@ -50,7 +60,7 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <l1>
+                    <p>
                         
                         I am Kinlo, commonly referred to as Professor. I am a Computer Science Major and Data Science Minor student at Constructor University in Bremen, Germany. I am a tech enthusiast with a deep passion for machine learning and artificial intelligence. The potential of AI to revolutionize industries and improve everyday life truly excites me, and I am constantly exploring new ways to harness its power.<br/>
                         <br/>
@@ -64,11 +74,11 @@
                     
 
                     <div class="tab-title">
-                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
-                        <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
-                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('Awards')">Awards</p>
+                        <p class="tab-links active-link" onclick="opentab('education', event)">Education</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experiences</p>
+                        <p class="tab-links" onclick="opentab('certificates', event)">Certificates</p>
+                        <p class="tab-links" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('Awards', event)">Awards</p>
                     </div>
                     <div class="tab-contents active-tab" id="education">
                         <ul>
@@ -127,6 +137,7 @@
                             <a href="https://globalteacherprize.org/news/global-student-prize-finalists/2023-finalists-global-student-prize/1012/1012-Kinlo-Ephriam-Tangiri">L earn More <i class="fa-solid fa-up-right-from-square"></i> </a>
                             <li><span>Ambassador Award for Excellent Encouragement</span><br>After serving for two years as International Youth Maths Competition Ambassador for my country Cameroon, I was awarded this certificate ranking 2rd globally</li>
                         </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -142,21 +153,20 @@
                     <h2>Web App</h2>
                     <p>Working with Nfor Glen to build our learning platform KET Academy</p>
                     <p>This platform will be the focal point for 21th century skill acquisition as well as academic library for resources and mentorship for secondary and high school students in Cameroon</p>
-                    <a href="https://ketacademy.web.app/">Learn more </a>
+                    <a href="https://ketacademy.web.app/" class="learn-more-btn">Learn more </a>
                 </div>
                 <div class="service-item">
                     <i class="fa-solid fa-crop-simple"></i>
                     <h2><Code>Courses</Code></h2>
                     <p>After authoring a mathematics textbook in high school and becoming a TA for Calculus and Linear Algebra at the university, 
                         I have decided to extend this by sharing my knowledge online via YouTube and some of these courses are paid courses</p>
-                    </p>
-                    <a href="https://www.youtube.com/@KETAcademy/videos">Learn more</a>
+                    <a href="https://www.youtube.com/@KETAcademy/videos" class="learn-more-btn">Learn more</a>
                 </div>
                 <div class="service-item">
                     <i class="fa-brands fa-app-store-ios"></i>
                     <h2>Projects & SMM</h2>
                     <p>Worked with Youth Inspiration now known as Impact Axis, Synthesis@Constructor University and YouthTeamUp. in running multiple projects and assisting with SMM</p>
-                    <a href="https://www.linkedin.com/in/kinlo-ephriam-tangiri-a70113218/">Learn more</a>
+                    <a href="https://www.linkedin.com/in/kinlo-ephriam-tangiri-a70113218/" class="learn-more-btn">Learn more</a>
                 </div>
             </div>
         </div>
@@ -196,19 +206,15 @@
     </div>
     <!-----------contact section starts here---------->
 <!----------------I will create a parent container to rap the children contain in order to easily customize it----------------->
-<div class = "contact-wrapper">
-    <!--Abbreviation of KET-->
-    <div class="ket-abbreviation" style="text-align: center; margin: 50px 0;">
-        <h1 class="sub-title">KET</h1>
-    </div>
-    <div class = "contact-left">
+<div class="contact-wrapper">
+    <div class="contact-left">
         <div id="contact">
             <div class="container">
                 <section class="row">
                     <div class="contact-left">
                         <h1 class="sub-title">Get in touch</h1>
-                        <p> <i class="fa-solid fa-envelope"></i>kinlotangiri911@gmail.com</p>
-                        <p> <i class="fa-brands fa-square-whatsapp"></i>+237679563542</p>
+                        <p><i class="fa-solid fa-envelope"></i>kinlotangiri911@gmail.com</p>
+                        <p><i class="fa-brands fa-square-whatsapp"></i>+237679563542</p>
                         <div class="social-icons">
                             <a href="https://www.linkedin.com/in/kinlo-ephriam-tangiri-a70113218/"><i class="fa-brands fa-linkedin"></i></a>
                             <a href="https://www.instagram.com/kinloephriamt?igsh=MXY2bWZ4ejI0NTVhag%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
@@ -218,13 +224,13 @@
                             <a href="https://www.threads.net/@kinloephriamt"><i class="fa-brands fa-square-threads"></i></a>
                             
                         </div>
-                        <a href="https://drive.google.com/file/d/16GD9CuHnUeTiNfbAlRT3eLsuXHxVcPXn/view?usp=sharing" download class="btn btn2">Access my CV</a>
+                        <a href="https://drive.google.com/file/d/16GD9CuHnUeTiNfbAlRT3eLsuXHxVcPXn/view?usp=sharing" download class="btn btn2 pulse-effect ripple">Access my CV</a>
                     </div>
                     <div id="booking">
                         <div class="container">
                             <h2>Virtual Coffee with Me</h2>
-                            <p>Let's have a virtual coffee and discuss any interested projects or ideas <br> Click any below to select the time that works best for you.</p>
-                            <button onclick = "window.open('https://calendly.com/kinlotangiri911/discovery-call')">Book Now</button>
+                            <p>Let's have a virtual coffee and discuss any interested projects or ideas <br> Click below to select the time that works best for you.</p>
+                            <button onclick = "window.open('https://calendly.com/kinlotangiri911/discovery-call')" class="glow-effect ripple">Book Now</button>
                         </div>                 
                     </div>
 
@@ -235,7 +241,7 @@
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="Submit" class="btn btn2">Submit</button>
+                        <button type="Submit" class="btn btn2 ripple">Submit</button>
                     </form>
                     <span id="msg"></span>
                 </div>
@@ -251,36 +257,79 @@
         </div>
     </div>
 
+    <!-- JavaScript for tab functionality -->
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname) {
+        function opentab(tabname, event) {
+            // Remove active class from all tabs
             for (var tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
             for (var tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
+            // Add active class to clicked tab
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
 
-        document.getElementById("menu-icon").addEventListener("click", function() {
-            document.querySelector("nav ul").classList.add("show");
-            document.getElementById("menu-icon").style.display = "none";
-            document.getElementById("close-icon").style.display = "block";
+        // Mobile menu functionality
+        const menuIcon = document.getElementById("menu-icon");
+        const closeIcon = document.getElementById("close-icon");
+        const navLinks = document.querySelector(".nav-links");
+        const navItems = document.querySelectorAll(".nav-item");
+
+        function toggleMenu() {
+            navLinks.classList.toggle("show");
+            updateIconVisibility();
+        }
+
+        function updateIconVisibility() {
+            if (navLinks.classList.contains("show")) {
+                menuIcon.style.display = "none";
+                closeIcon.style.display = "block";
+            } else {
+                menuIcon.style.display = "block";
+                closeIcon.style.display = "none";
+            }
+        }
+
+        function handleScreenSize() {
+            if (window.innerWidth <= 768) {
+                // On smaller screens
+                menuIcon.style.display = "block";
+                closeIcon.style.display = "none";
+                navLinks.classList.remove("show");
+            } else {
+                // On larger screens
+                menuIcon.style.display = "none";
+                closeIcon.style.display = "none";
+                navLinks.classList.remove("show");
+            }
+        }
+
+        function closeMenuOnNavItemClick(e) {
+            if (window.innerWidth <= 768) {
+                toggleMenu();
+            }
+        }
+
+        menuIcon.addEventListener("click", toggleMenu);
+        closeIcon.addEventListener("click", toggleMenu);
+        window.addEventListener("resize", handleScreenSize);
+
+        // Add click event listeners to all nav items
+        navItems.forEach(item => {
+            item.addEventListener("click", closeMenuOnNavItemClick);
         });
 
-        document.getElementById("close-icon").addEventListener("click", function() {
-            document.querySelector("nav ul").classList.remove("show");
-            document.getElementById("menu-icon").style.display = "block";
-            document.getElementById("close-icon").style.display = "none";
-        });
-
-        //This part of the code get response from the form and share with me on via sheets
-
+        // Initial call to set correct state
+        handleScreenSize();
     </script>
+
+    <!-- JavaScript for form submission -->
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyiRoh2BbSz9CX1lMF7ZXkDCESjrU4uNxgRMg-Z6HNnOA1fMoUzQxrpdjJZif4JzgPR/exec'
         const form = document.forms['submit-to-google-sheet']
@@ -298,8 +347,10 @@
             })
             .catch(error => console.error('Error!', error.message))
         })
-      </script>
-      <script>
+    </script>
+
+    <!-- JavaScript for intersection observer (highlighting elements) -->
+    <script>
       document.addEventListener('DOMContentLoaded', (event) => {
         const observer = new IntersectionObserver((entries) => {
           entries.forEach(entry => {
@@ -319,8 +370,32 @@
           observer.observe(section);
         });
       });
-      </script>
-      </body>
-      </html>
+    </script>
+
+    <!-- JavaScript for navigation item zoom effect -->
+    <script>
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('mouseenter', zoomOut);
+            item.addEventListener('mouseleave', zoomIn);
+            item.addEventListener('touchstart', toggleZoom);
+        });
+
+        function zoomOut(e) {
+            e.target.style.transform = 'scale(0.9)';
+            e.target.style.transition = 'transform 0.3s ease';
+        }
+
+        function zoomIn(e) {
+            e.target.style.transform = 'scale(1)';
+        }
+
+        function toggleZoom(e) {
+            if (e.target.style.transform === 'scale(0.9)') {
+                zoomIn(e);
+            } else {
+                zoomOut(e);
+            }
+        }
+    </script>
 </body>
 </html>
