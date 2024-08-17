@@ -181,7 +181,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #1F4690;
+    background: #FFD700; /* Change to yellow */
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -792,6 +792,20 @@ img {
     .header-text h1 {
         font-size: 50px;
     }
+}
+
+/* Update span elements in specific sections */
+#education span, #experience span, #certificates span, #skills span, #Awards span {
+    color: #FFD700; /* Yellow color */
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    font-weight: 500; /* Medium weight for better readability */
+}
+
+/* Update span elements in specific sections */
+#education span, #experience span, #certificates span, #skills span, #Awards span {
+    color: #FFD700; /* Yellow color */
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    font-weight: 500; /* Medium weight for better readability */
 }
 
 /* Medium devices (tablets, less than 992px) */
